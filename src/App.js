@@ -10,7 +10,7 @@ function App() {
       <Header />
       <Router>
         <Routes>
-          <Route path='/home' element={<Home />} />
+          <Route path='/' element={<Home />} />
           {/* Add other routes here if needed */}
         </Routes>
       </Router>
